@@ -9,7 +9,7 @@ const KEYBOARD_VALUES = 'abcdefghijklmnopqrstuvwxyz'.toUpperCase().split('');
 const DEFAULT_STATE = {
   attempt: 0,
   usedLetters: [],
-  guessedLetters: 1
+  guessedLetters: 0
 }
 
 class App extends Component {
